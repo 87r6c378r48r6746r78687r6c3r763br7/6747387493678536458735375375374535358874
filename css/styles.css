@@ -1,0 +1,52 @@
+/* Estilos básicos del menú */
+nav {
+    background-color: #ffffff; /* Color de fondo */
+    text-align: center;
+    display: flex;
+}
+
+.nav-logo {
+    width: 30vw;
+    height: 80px;
+    display: flex;
+    justify-content: left;
+}
+
+ul {
+    width: 70vw;
+    list-style-type: none; /* Elimina los marcadores de lista */
+    padding: 0;
+    display: flex;
+    justify-content: right;
+}
+
+li {
+    display: inline; /* Los elementos de la lista aparecerán en línea */
+    margin-right: 20px; /* Espacio entre elementos */
+}
+
+/* Estilos de los enlaces */
+li a {
+    text-decoration: none; /* Elimina el subrayado predeterminado de los enlaces */
+    color: white; /* Color del texto de los enlaces */
+    font-size: 25px; /* Tamaño del texto */
+    background: #dd1313;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.vista-clientes tr:hover td { 
+    background: #ecc9c9; 
+    color: rgb(202, 31, 31); 
+}
+.vista-clientes td {
+    padding: 8px;     
+    background: #ecc9c9;     
+    border-bottom: 1px solid #fff;   
+    border-top: 1px solid transparent;
+}
+
+/* Cambiar color del enlace al pasar el cursor sobre él */
+a:hover {
+    color: #ecc9c9;
+}

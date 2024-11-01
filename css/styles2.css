@@ -1,0 +1,61 @@
+
+header {
+	background: #033A58;
+	height: 50px;
+	color: #ffffff;
+}
+
+#subHeader{
+	background: #ffffff;
+	color: #ffffff;
+	height: 2px;
+}
+
+#franjaPiePagina{
+	background: #033A58;
+	color: #ffffff;
+}
+
+#banner1{
+	/*background: #ECF0F1;*/
+	background:url('../pictures/banner1.jpg')no-repeat;
+	background-size:100%;
+	height: 500px;
+	display:block;
+	padding:0 !important;
+	margin:0;
+}
+
+#banner2{
+	/*background: #ECF0F1;*/
+	background:url('../pictures/banner2.jpg')no-repeat;
+	background-size:100%;
+	height: 800px;
+	display:block;
+	padding:0 !important;
+	margin:0;
+}
+
+#banner3{
+	/*background: #ECF0F1;*/
+	background:url('../pictures/banner3.jpg')no-repeat;
+	background-size:100%;
+	height: 400px;
+	display:block;
+	padding:0 !important;
+	margin:0;
+}
+
+#banner4{
+	/*background: #ECF0F1;*/
+	background:url('../pictures/banner4.jpg')no-repeat;
+	background-size:100%;
+	height: 500px;
+	display:block;
+	padding:0 !important;
+	margin:0;
+}
+
+#cuerpoTrabajo{
+	background: #FFFFFF;
+}
